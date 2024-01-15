@@ -4,9 +4,9 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-  body {
+/*   body {
     
-  }
+  } */
 
   .hebergements-and-populaires {
       flex-direction: column;
@@ -49,8 +49,8 @@
   }
   
   .card-activite img {
-    width: 100%;
-    height: 12em;
+    width: 193.5px;
+    height: 200px;
   }
 
   .card-content-activity {

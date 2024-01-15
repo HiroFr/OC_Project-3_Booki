@@ -133,11 +133,11 @@
 
   .card-activite {
     width: 100% !important;
-    height: 12em;
+    height: 13em !important;
   }
 
   .card-activite img {
-    height: 9em;
+    height: 141px !important;
   }
 
   footer {

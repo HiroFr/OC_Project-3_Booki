@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  justify-content: start;
+  text-align: start;
+  gap: 15em;
+  background-color: var(--main-bg-color);
+}
+
+.footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: 700;
+}

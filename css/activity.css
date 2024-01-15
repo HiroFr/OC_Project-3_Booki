@@ -1,0 +1,38 @@
+
+
+.activite {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.card-global-activite {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card-activite {
+  width: 297.5px;
+  height: 439px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px 0px #0000001A;
+}
+
+.card-activite img {
+  width: 297.5px;
+  height: 380px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.card-content-activity {
+  padding: 16px 19px 16px 19px;
+}
+
+.card-activite-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0px;
+}

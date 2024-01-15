@@ -1,0 +1,138 @@
+
+
+/* .search {
+
+} */
+
+.b {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.x {
+  display: flex;
+  align-items: center;
+}
+
+/* .w {
+
+} */
+
+.searchButton .fa-magnifying-glass {
+  display: none; /* Masquer l'icône */
+}
+
+.searchButton .button-text {
+  display: inline; /* Afficher le texte */
+}
+
+.pr15 {
+  padding-right: 15px;
+}
+
+.icon-location {
+  width: 50px;
+  height: 49px;
+  border-radius: 15px 0px 0px 15px;
+  border: 1px solid var(--main-bg-color) inset;
+  background-color: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  position: relative;
+}
+
+.location-search {
+  width: 180px;
+  height: 47px;
+  border: 1px solid var(--main-bg-color);
+  padding: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.location-search:focus {
+  outline: none;
+}
+
+.location-button {
+  position: absolute;
+  top: 0;
+  left: 14em;
+  width: 132px;
+  height: 49px;
+  border: 1px solid var(--main-color) inset;
+  border-radius: 0px 15px 15px 0px;
+  background-color: var(--main-color);
+  padding: 15px 16px 15px 16px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.filter h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.filter-chips {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #D9D9D9;
+  border-radius: 50px;
+  padding: 4px 19px 4px 19px;
+  cursor: pointer;
+  width: 8em;
+}
+
+.filter-chips:hover {
+  background-color: var(--filter-bg-color);
+}
+
+.filter-chips p {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 14px 0px;
+}
+
+.search-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon-info {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #D9D9D9;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-info i {
+  font-size: 12px;
+}
+
+.search-info p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}

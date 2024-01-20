@@ -33,10 +33,10 @@
   .header-nav {
     display: flex;
     gap: 0;
-    padding-bottom: 30px;
     width: 100%;
+    padding-bottom: 30px;
   }
-  
+
   .header-div:hover {
     color: var(--main-color);
     border-bottom: 2px solid var(--main-color);
@@ -55,6 +55,12 @@
     padding: 0 8px;
   }
 
+  .location-search {
+    width: 80%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
   .location-button {
     width: 49px;
     height: 49px;
@@ -64,6 +70,13 @@
     padding: 16px;
     cursor: pointer;
     box-shadow: 0px 4px 4px 0px #00000040;
+    right: 0px;
+    left: auto;
+    top: auto;
+  }
+
+  .location {
+    padding: 35px 0px;
   }
 
   .main-container {
@@ -78,10 +91,22 @@
   }
 
   .hebergements-and-populaires section {
-    padding: 20px;
+    padding: 30px 20px;
     border-radius: 0px;
   }
   
+  .populaires-cards {
+    flex-direction: column !important;
+  }
+
+  .populaires-cards a {
+    width: auto !important;
+  }
+
+  .populaires-cards .card {
+    margin-top: 15px !important;
+  }
+
   .hebergements-and-populaires section:first-child {
     background: none;
   }
@@ -90,14 +115,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
   }
 
   .populaires {
     margin-top: 0 !important;
-  }
-
-  .populaires-cards {
-    display: block !important;
   }
 
   .section-title {
@@ -129,6 +151,7 @@
 
   .card-global-activite {
     flex-direction: column;
+    gap: 15px;
   }
 
   .card-activite {
@@ -137,6 +160,7 @@
   }
 
   .card-activite img {
+    width: 100% !important;
     height: 141px !important;
   }
 
@@ -146,14 +170,54 @@
   }
 
   .footer {
-    gap: 14px;
+    gap: 15px;
+    padding: 30px;
   }
 
   .b {
     gap: 4px;
+    justify-content: center;
   }
 
   .filter-chips {
     padding: 0px 9px;
-  } 
+    width: 42%;
+    justify-content: center;
+  }
+
+  .icon-info {
+    width: 34px;
+    height: 24px;
+  }
+
+  .filter-title {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .search-title {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+
+  .section-subtitle {
+    margin: 0;
+  }
+
+  .hebergements-title {
+    padding-bottom: 15px;
+  }
+
+  .gap15 {
+    padding-bottom: 15px;
+  }
+
+  .activite {
+    padding-bottom: 35px;
+  }
+
+  .activite-title {
+    font-size: 22px;
+    font-weight: 700;
+  }
 }

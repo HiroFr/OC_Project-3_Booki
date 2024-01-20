@@ -98,7 +98,6 @@
   border-radius: 50px;
   padding: 4px 19px 4px 19px;
   cursor: pointer;
-  width: 8em;
 }
 
 .filter-chips:hover {
@@ -134,5 +133,28 @@
 .search-info p {
   font-size: 16px;
   font-weight: 400;
+  margin: 0;
+}
+
+.search-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.filter-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hebergements-title {
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.activite-title {
+  font-size: 22px;
+  font-weight: 700;
   margin: 0;
 }

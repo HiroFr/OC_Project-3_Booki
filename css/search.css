@@ -65,7 +65,6 @@
 
 .location-button {
   position: absolute;
-  top: 0;
   left: 14em;
   width: 132px;
   height: 49px;
@@ -77,6 +76,7 @@
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+  top: auto;
 }
 
 .filter {
@@ -114,6 +114,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
+  padding: 37.5px 0px;
 }
 
 .icon-info {
@@ -139,11 +140,21 @@
 .search-title {
   font-size: 22px;
   font-weight: 700;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.section-subtitle {
+  margin: 0;
 }
 
 .filter-title {
   font-size: 18px;
   font-weight: 700;
+}
+
+.location {
+  padding: 35px 0px;
 }
 
 .hebergements-title {

@@ -56,7 +56,7 @@
   }
 
   .location-search {
-    width: 80%;
+    width: 100%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
   }
@@ -146,7 +146,7 @@
   }
 
   .card-content-activity {
-    padding: 10px 19px 16px 19px;
+    padding: 20px 0px 0px 20px !important;
   }
 
   .card-global-activite {
@@ -220,4 +220,9 @@
     font-size: 22px;
     font-weight: 700;
   }
+
+  .more-title {
+    margin: 0;
+    font-size: 18px;
+}
 }

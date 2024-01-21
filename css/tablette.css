@@ -58,7 +58,7 @@
   }
   
   .pa {
-    padding-top: 18px;
+    padding-top: 14px;
   }
 
   .x {
@@ -72,5 +72,14 @@
 
   footer {
     gap: 6em;
+  }
+
+  .filter-title {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .search-info {
+    padding: 35px 0px;
   }
 }

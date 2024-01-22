@@ -1,6 +1,5 @@
 * {
   font-family: 'Raleway', sans-serif;
-  /* box-shadow: 0 0 0 3px red inset; */
 }
 
 :root {
@@ -65,3 +64,4 @@ color: var(--main-bg-color);
 .euro {
   font-weight: 700;
 }
+

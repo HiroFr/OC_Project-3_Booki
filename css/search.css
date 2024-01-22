@@ -1,24 +1,14 @@
-
-
-/* .search {
-
-} */
-
-.b {
+.filter-div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
 }
 
-.x {
+.filter-div-content {
   display: flex;
   align-items: center;
 }
-
-/* .w {
-
-} */
 
 .searchButton .fa-magnifying-glass {
   display: none; /* Masquer l'icône */
@@ -28,11 +18,8 @@
   display: inline; /* Afficher le texte */
 }
 
-.pr15 {
-  padding-right: 15px;
-}
-
 .icon-location {
+  position: absolute;
   width: 50px;
   height: 49px;
   border-radius: 15px 0px 0px 15px;
@@ -48,8 +35,13 @@
   position: relative;
 }
 
+.pr-15 {
+  padding-right: 15px;
+}
+
 .location-search {
-  width: 180px;
+  border-radius: 20px;
+  width: auto;
   height: 47px;
   border: 1px solid var(--main-bg-color);
   padding: 0;
@@ -133,14 +125,11 @@
 
 .search-info p {
   font-size: 16px;
-  font-weight: 400;
   margin: 0;
+  font-weight: 400;
 }
 
 .search-title {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 0;
   margin-bottom: 8px;
 }
 
@@ -158,10 +147,7 @@
 }
 
 .hebergements-title {
-  font-size: 22px;
-  font-weight: 700;
   padding-bottom: 30px;
-  margin: 0;
 }
 
 .activite-title {

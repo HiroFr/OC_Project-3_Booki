@@ -52,13 +52,11 @@
   }
 
   .search {
-    padding: 0 8px;
+    padding: 0 20px;
   }
 
   .location-search {
     width: 100%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
   }
 
   .location-button {
@@ -174,14 +172,15 @@
     padding: 30px;
   }
 
-  .b {
-    gap: 4px;
+  .filter-div {
     justify-content: center;
+    column-gap: 2px;
+    row-gap: 8px;
   }
 
   .filter-chips {
-    padding: 0px 9px;
-    width: 42%;
+    padding: 0px 3px;
+    width: 46%;
     justify-content: center;
   }
 
@@ -190,18 +189,13 @@
     height: 24px;
   }
 
-  .filter-title {
-    margin: 0;
-    margin-bottom: 20px;
+  .filter-chips p {
+    font-size: 14px;
   }
 
   .search-title {
     margin: 0;
     margin-bottom: 8px;
-  }
-
-  .section-subtitle {
-    margin: 0;
   }
 
   .hebergements-title {

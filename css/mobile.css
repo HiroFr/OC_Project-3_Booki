@@ -133,10 +133,6 @@
     height: auto;
   }
 
-  .card-hebergement img {
-    width: auto;
-  }
-
   .populaires-cards img {
     height: 136px;
     border-top-left-radius: 20px;
@@ -181,13 +177,17 @@
   .filter-chips {
     padding: 0px 3px;
     width: 46%;
-    justify-content: center;
+    gap: 4px;
   }
 
-  .icon-info {
+  .filter-chips i {
+    padding-left: 8px;
+  }
+
+/*   .icon-info {
     width: 34px;
     height: 24px;
-  }
+  } */
 
   .filter-chips p {
     font-size: 14px;
@@ -203,7 +203,7 @@
   }
 
   .gap15 {
-    padding-bottom: 15px;
+    padding-top: 15px;
   }
 
   .activite {
@@ -218,5 +218,10 @@
   .more-title {
     margin: 0;
     font-size: 18px;
-}
+  }
+
+  .test {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
 }

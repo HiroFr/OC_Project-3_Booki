@@ -1,12 +1,6 @@
-
-
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-
-/*   body {
-    
-  } */
 
   .hebergements-and-populaires {
       flex-direction: column;
